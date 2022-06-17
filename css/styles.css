@@ -1,0 +1,54 @@
+:root {
+    --theme-color: #0d6efd;
+}
+
+/*----------------------Login page-------------------------*/
+.login-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -50px;
+    margin-left: -50px;
+    transform: translate(-50%, -50%);
+    /*margin: 10rem 0;*/
+    text-align: center;
+}
+
+.login-container > .container > .row {
+    max-width: 500px;
+    margin: auto;
+}
+
+/*----------------------Home page-------------------------*/
+.home-page-container {
+    margin-top: 5rem;
+}
+
+.home-page-container > .text-blog-container {
+    background-color: #8d64644d;
+}
+
+.comments-container > .row-head > h4, .comments-container > .row-head > button {
+    max-width: fit-content;
+}
+
+.slider-container .fa-angle-right, .slider-container .fa-angle-left {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    color: var(--theme-color);
+    font-size: 2.5rem;
+    z-index: 1;
+}
+
+.slider-container .fa-angle-right {
+    right: 0;
+}
+
+.slider-container .slick-track > *:not(:last-child) {
+    margin-right: 1rem;
+}
+
+#comments-list-home {
+    transition: all 0.5s;
+}

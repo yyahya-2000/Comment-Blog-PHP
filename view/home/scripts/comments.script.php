@@ -1,0 +1,1 @@
+<?php include_once $_SERVER['DOCUMENT_ROOT'] . '/WebStudio/view/home/comments.view.php'; ?>
